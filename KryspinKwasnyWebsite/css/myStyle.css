@@ -1,0 +1,419 @@
+
+
+#titlehead{
+    background-image: linear-gradient(to bottom right, lightgrey, whitesmoke);
+
+
+
+
+}
+
+
+#mainContent{
+    background-image: linear-gradient(to bottom right, lightgrey, whitesmoke);
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: Bahnschrift;
+    font-weight: bolder;
+
+}
+
+.para{
+    float: left;
+
+}
+
+html , body {
+
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+h1.animation{
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    animation-name: titlePage;
+    animation-duration: 2s;
+
+}
+
+p.animation{
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    animation-name: titlePage;
+    animation-duration: 2s;
+    animation-delay: 50ms;
+}
+
+.SteamedFont{
+    font-family: steamedDemo;
+    font-size: 40px;
+
+}
+
+
+
+
+
+@keyframes titlePage{
+
+
+    0% {color: white;}
+    100% {color: black;}
+
+
+
+
+}
+
+
+nav{
+    position: sticky;
+    background-color: whitesmoke;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    margin-bottom: 1px;
+}
+
+nav.borderBot{
+
+
+}
+
+
+.center{
+    text-align: center;
+}
+
+.centerID{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ctable{
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+th{
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.editSearch{
+width: 80%;
+
+
+
+}
+
+#editButton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+#imageBorder{
+    height: 307px;
+    width: 307px;
+    background-color: black;
+
+    border-radius: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#imagePlacement{
+    height: 300px;
+    width: 300px;
+    border-radius: 1px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+
+}
+
+.Lspace{
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+
+
+.left{
+    float: left;
+}
+
+.right{
+
+    float: right;
+}
+
+ul.left{
+padding: 0;
+margin-bottom: 0;
+}
+
+ul.right{
+padding: 0;
+margin-bottom: 0;
+}
+
+ul.center{
+    text-align: center;
+    padding-left: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 0px;
+    height: 60px;
+}
+
+li{
+    display: inline-block;
+
+
+}
+
+li.displayBlock{
+    display: block;
+
+
+}
+
+.li-padding-right{
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.li-padding-left{
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+
+}
+
+a{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 17px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+a:hover{
+
+color: deepskyblue;
+    text-shadow: 1px 1px 2.5px deepskyblue;
+}
+
+a:active{
+color: deepskyblue;
+
+}
+
+a.marginLeft{
+    margin-left: 50px;
+
+}
+
+
+
+
+p.center{
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+p.left{
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+p.right{
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.pad-right{
+    padding-right: 10px;
+
+
+}
+
+.pad-left{
+    padding-left: 10px;
+
+
+}
+
+th{
+text-decoration: underline;
+
+
+}
+
+
+#WelcomingPara{
+    margin-left: 20%;
+    margin-right: 20%;
+
+
+
+}
+
+.logout{
+    margin-bottom: 0px;
+    float: right;
+    margin-right: 10px;
+}
+
+td{
+    text-align: center;
+
+
+}
+
+#imageIndex{
+    width: 100px;
+    height: 100px;
+
+
+}
+
+#topPhotoContent{
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 750px;
+}
+
+.textCenter{
+position: absolute;
+    top: 40%;
+    left: 20%;
+transform: translate(-50%, -50%);
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.textCenterLower{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    font-size: 75px;
+}
+
+
+
+#header{
+    height: 60px;
+
+}
+
+.imageContainer{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 644px) {
+
+
+
+
+
+    .li-padding-right{
+        margin-top: 3px;
+        margin-bottom: 3px;
+        display: block;
+        margin-right: 30px;
+    }
+
+
+    .li-padding-left{
+        margin-top: 3px;
+        margin-bottom: 3px;
+        display: block;
+        margin-left: 30px;
+
+    }
+
+    #mainContent{
+        background-image: linear-gradient(to bottom right, lightgrey, whitesmoke);
+        margin-left: 0%;
+        margin-right: 0%;
+
+    }
+
+
+    #WelcomingPara{
+        margin-left: 30px;
+        margin-right: 30px;
+
+
+
+    }
+
+    .logout{
+        margin-bottom: 0px;
+        float: left;
+        margin-left: 20px;
+    }
+
+    #imageBorder{
+        height: 255px;
+        width: 255px;
+        background-color: black;
+        border-radius: 1000px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #imagePlacement{
+        height: 250px;
+        width: 250px;
+        border-radius: 1000px;
+        margin-top: 2px;
+        margin-bottom: 0px;
+
+    }
+
+
+    #imageIndex{
+        width: 75px;
+        height: 75px;
+        border-radius: 100px;
+        margin-top: 10px;
+    }
+
+    .ctable{
+
+        margin-left: auto;
+        margin-right:auto;
+
+
+    }
+
+
+
+}

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="69982025-014a-445d-a18a-9b2f2ed07ef6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,9 +23,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FreindSystemWebsite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/view" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zwari\KryspinKwasnyWebsite\view" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$">
@@ -39,6 +47,7 @@
       <updated>1652711440339</updated>
       <workItem from="1652711441433" duration="2953000" />
       <workItem from="1653234531167" duration="7034000" />
+      <workItem from="1653310660050" duration="2999000" />
     </task>
     <servers />
   </component>

@@ -18,10 +18,22 @@
                 <a href=""<li class="">HOME</li></a>
                 <a href=""<li class="">PORTFOLIO</li></a>
                 <a href=""<li class="">Contact Me</li></a>
-
+                <li id="Javascript" style="float: right; font-size: 10px">Javascript
+                <p id="time">Current Time</p>
+                </li>
             </ul>
+
+
 
         </div>
     </div>
 </div>
 </nav>
+
+<script>
+    var today = new Date();
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    document.getElementById("time").innerHTML = "Current Time - " + time;
+
+   // window.alert(time);
+</script>

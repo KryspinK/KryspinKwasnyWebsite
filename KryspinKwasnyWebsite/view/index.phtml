@@ -1,12 +1,18 @@
 <?php require("header.phtml"); ?>
 
+<script src="js/ImageSlider.js"></script>
+
 <body>
 <div class="TopPhotoContainer">
     <div class="row">
         <div class="col-md-12">
             <div id="topPhotoContent">
-                <img src="image/placeHolderPP.jpg" class="imageContainer">
-                <p class="textCenter">Hey, I'm</p>
+                <img  id="LiveImage" src="image/placeHolderPP.jpg" class="imageContainer">
+                    <div>
+                    <button onclick="Nxt()" id="btnNxt"> > </button>
+                    <button onclick="Prev()" id="btnPrev"> < </button>
+                     </div>
+                <p class="textCenter" id="LiveText">Hey, I'm</p>
                 <p class="textCenterLower">-<?php echo $view->title ?>-</p>
             </div>
         </div>
@@ -40,10 +46,10 @@
     </div>
         <div class="col-md-6">
 
-        <h3> Module's Taught </h3>
+        <h3 id="ModulesTaughtHeading"> Module's Taught </h3>
             <ul>
 
-                <div class="col-md-3" style="display: inline-block; margin-right: 10px; vertical-align: top">
+                <div class="col-md-3" id="Y1">
                 <li class="displayBlock"><h5>Year 1</h5></li>
                 <li class="displayBlock">Programming One</li>
                 <li class="displayBlock">Programming Two</li>
@@ -53,7 +59,7 @@
                 <li class="displayBlock"><abbr title="Proffessional Development Practices" style="text-decoration: none">PDP</abbr></li>
                 </div>
 
-                <div class="col-md-3" style="display: inline-block; margin-left: 10px; margin-right: 10px">
+                <div class="col-md-3" id="Y2">
                     <li class="displayBlock"><h5>Year 2</h5></li>
                     <li class="displayBlock" >Career Development</li>
                     <li class="displayBlock">Client Server Systems</li>
@@ -64,7 +70,7 @@
                     <li class="displayBlock">Software Projects & Agile Techniques </li>
                 </div>
 
-                <div class="col-md-3" style="display: inline-block; margin-left: 10px; vertical-align: top;">
+                <div class="col-md-3" id="Y3">
                     <li class="displayBlock"><h5>Year 2</h5></li>
                     <li class="displayBlock">Programming One</li>
                     <li class="displayBlock">Programming Two</li>
@@ -80,7 +86,11 @@
 
 </div>
 
-
 </body>
+
+
+
+
+
 
 <?php require("footer.phtml")?>

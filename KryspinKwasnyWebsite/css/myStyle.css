@@ -1,5 +1,9 @@
 
 
+
+
+
+
 #titlehead{
     background-image: linear-gradient(to bottom right, lightgrey, whitesmoke);
 
@@ -82,6 +86,9 @@ nav{
     padding-bottom: 7px;
     padding-top: 7px;
     margin-bottom: 1px;
+    top: 0;
+    z-index: +1;
+    overflow: hidden;
 }
 
 nav.borderBot{
@@ -324,14 +331,14 @@ transform: translate(-50%, -50%);
     left: 20%;
     transform: translate(-50%, -50%);
     font-weight: bolder;
-    font-size: 75px;
+    font-size: 65px;
 }
 
 
 
 #header{
     height: 60px;
-
+    position: sticky;
 }
 
 .imageContainer{
@@ -350,8 +357,149 @@ li.marginBot10px{
 
 }
 
+#Y1{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top
+}
+
+#Y2{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+#Y3{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+#btnNxt {
+    position: absolute;
+    top: 0%;
+    right: 0px;
+    width: 30px;
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    opacity: 0;
+    background-image: linear-gradient(to right,black,darkgrey   );
+    border: none;
+}
+
+#btnNxt:hover{
+    position: absolute;
+    top: 0%;
+    right:0px;
+    opacity: 0.5;
+    padding-bottom: 50px;
+
+}
 
 
+
+#btnPrev{
+    position: absolute;
+    top: 0%;
+    left: 0px;
+    width: 30px;
+    visibility: visible;
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    opacity: 0;
+    background-image: linear-gradient(to right,black,darkgrey   );
+    border: none;
+
+}
+
+
+
+#btnPrev:hover {
+    position: absolute;
+    top: 0%;
+    left: 0px;
+    opacity: 0.5;
+    padding-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 1400px){
+
+    .textCenter{
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        font-weight: bolder;
+        font-size: 35px;
+    }
+
+    .textCenterLower{
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-45%, -50%);
+        font-weight: bolder;
+        font-size: 55px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1065px){
+
+    .textCenter{
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        font-weight: bolder;
+        font-size: 35px;
+    }
+
+    .textCenterLower{
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-45%, -50%);
+        font-weight: bolder;
+        font-size: 45px;
+    }
+
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    ul.center {
+        text-align: center;
+        padding-left: 30px;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 0px;
+        height: 60px;
+    }
+
+
+}
+
+@media only screen and (max-width: 769px) {
+
+   #ModulesTaughtHeading{
+       margin-left: 10px;
+
+   }
+
+
+}
 
 @media only screen and (max-width: 644px) {
 
@@ -430,6 +578,42 @@ li.marginBot10px{
 
 
     }
+
+
+
+}
+
+
+@media only screen and (max-width: 480px){
+
+    #Y1{
+        display: inline-block;
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        vertical-align: top;
+
+    }
+
+
+
+
+    #Y2{
+        display: inline-block;
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        vertical-align: top;
+    }
+
+    #Y3{
+        display: inline-block;
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        vertical-align: top;
+    }
+
 
 
 

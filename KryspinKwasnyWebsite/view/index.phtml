@@ -2,7 +2,7 @@
 
 <script src="js/ImageSlider.js"></script>
 
-<body>
+<body onload="checkPage()">
 <div class="TopPhotoContainer">
     <div class="row">
         <div class="col-md-12">
@@ -13,7 +13,7 @@
                     <button onclick="Prev()" id="btnPrev"> < </button>
                      </div>
                 <p class="textCenter" id="LiveText">Hey, I'm</p>
-                <p class="textCenterLower">-<?php echo $view->title ?>-</p>
+                <p class="textCenterLower" id="LiveText2">-<?php echo $view->title ?>-</p>
             </div>
         </div>
     </div>

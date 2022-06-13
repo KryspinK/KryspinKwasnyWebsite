@@ -332,6 +332,7 @@ transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     font-weight: bolder;
     font-size: 65px;
+
 }
 
 
@@ -397,7 +398,9 @@ li.marginBot10px{
     top: 0%;
     right:0px;
     opacity: 0.5;
+    transition: visibility 0s linear 300ms, opacity 500ms;
     padding-bottom: 50px;
+    border-radius: 100px 0px 0px 100px;
 
 }
 
@@ -417,6 +420,7 @@ li.marginBot10px{
     opacity: 0;
     background-image: linear-gradient(to right,black,darkgrey   );
     border: none;
+    border-radius: 0px 100px 100px 0px;
 
 }
 
@@ -427,6 +431,7 @@ li.marginBot10px{
     top: 0%;
     left: 0px;
     opacity: 0.5;
+    transition: visibility 0s linear 300ms, opacity 500ms;
     padding-bottom: 50px;
 }
 

@@ -1,5 +1,6 @@
 var images = ["placeHolderPP.jpg", "dogs_1280p_0.jpg"];
 var currentImage = 0;
+var btnNxt = document.getElementById("btnNxt");
 
 //var min = 0;
 //var max = 1;

@@ -1,9 +1,5 @@
 
 
-
-
-
-
 #titlehead{
     background-image: linear-gradient(to bottom right, lightgrey, whitesmoke);
 
@@ -317,10 +313,10 @@ td{
 }
 
 .textCenter{
-position: absolute;
+    position: absolute;
     top: 40%;
     left: 20%;
-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     font-weight: bolder;
     font-size: 45px;
 }

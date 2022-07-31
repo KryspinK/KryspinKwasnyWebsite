@@ -9,9 +9,15 @@
             <div id="topPhotoContent">
                 <img  id="LiveImage" src="image/placeHolderPP.jpg" class="imageContainer">
                     <div>
-                    <button onclick="Nxt()" id="btnNxt"> > </button>
-                    <button onclick="Prev()" id="btnPrev"> < </button>
+                        <button onclick="Nxt()" id="btnNxt" style=""> > </button>
+                        <button onclick="Prev()" id="btnPrev"> < </button>
                      </div>
+
+                    <div id="slideShowCircles">
+                        <span class="dot1" id="slideShowCircle_1"></span>
+                        <span class="dot1" style="left: 52%" id="slideShowCircle_2"></span>
+                    </div>
+
                 <p class="textCenter" id="LiveText">Hey, I'm</p>
                 <p class="textCenterLower" id="LiveText2">-<?php echo $view->title ?>-</p>
             </div>

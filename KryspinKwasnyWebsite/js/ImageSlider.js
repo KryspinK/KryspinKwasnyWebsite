@@ -60,12 +60,15 @@ function checkPage(){
 
         document.getElementById("btnPrev").style.display = "none";
         document.getElementById("btnNxt").style.display = "block";
+        document.getElementById("slideShowCircle_1").style.backgroundColor = "white";
+        document.getElementById("slideShowCircle_2").style.backgroundColor = "#bbb";
 
     } else if (currentImage == 1 ){
 
         document.getElementById("btnNxt").style.display = "none";
         document.getElementById("btnPrev").style.display = "block";
-
+        document.getElementById("slideShowCircle_2").style.backgroundColor = "white";
+        document.getElementById("slideShowCircle_1").style.backgroundColor = "#bbb";
     }
 
 }
@@ -101,7 +104,5 @@ function slideShow(){
 
     }
     checkPage();
-
-
 
 }

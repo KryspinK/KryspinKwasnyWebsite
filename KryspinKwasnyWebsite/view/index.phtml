@@ -1,6 +1,8 @@
 <?php require("header.phtml"); ?>
 
-<script src="js/ImageSlider.js"></script>
+<script src="./js/Module.js"></script>
+<script src="./js/ImageSlider.js"></script>
+
 
 <body onload="checkPage()">
 <div class="TopPhotoContainer">
@@ -56,8 +58,8 @@
             <ul>
 
                 <div class="col-md-3" id="Y1">
-                <li class="displayBlock"><h5>Year 1</h5></li>
-                <li class="displayBlock">Programming One</li>
+                <li class="displayBlock" style="color: black; cursor: auto"><h5>Year 1</h5></li>
+                <li class="displayBlock" id="1" onclick="selectModule(this.id)">Programming One</li>
                 <li class="displayBlock">Programming Two</li>
                 <li class="displayBlock">Database Systems</li>
                 <li class="displayBlock">Computer System Internals and Linux</li>
@@ -66,8 +68,8 @@
                 </div>
 
                 <div class="col-md-3" id="Y2">
-                    <li class="displayBlock"><h5>Year 2</h5></li>
-                    <li class="displayBlock" >Career Development</li>
+                    <li class="displayBlock" style="color: black; cursor: auto"><h5>Year 2</h5></li>
+                    <li class="displayBlock" >Career Development</li></a>
                     <li class="displayBlock">Client Server Systems</li>
                     <li class="displayBlock">Data Structure & Algorithms</li>
                     <li class="displayBlock">Design Pattern</li>
@@ -77,7 +79,7 @@
                 </div>
 
                 <div class="col-md-3" id="Y3">
-                    <li class="displayBlock"><h5>Year 3</h5></li>
+                    <li class="displayBlock" style="color: black; cursor: auto"><h5>Year 3</h5></li>
                     <li class="displayBlock">Dependable <abbr title="Software Engineering"><b>SE</b></abbr></li>
                     <li class="displayBlock">Project for <abbr title="Software Engineering"><b>SE</b></abbr></li>
                     <li class="displayBlock">Software Quality</li>
@@ -92,8 +94,27 @@
 
 
 </div>
-
 </body>
+
+<script>
+    const modules = [];
+    let option = "";
+
+    function selectModule(id){
+
+        if (id == 1){
+            option = document.getElementById(id);
+            console.log("Programming_one");
+
+        }
+
+    }
+
+
+
+
+
+</script>
 
 
 

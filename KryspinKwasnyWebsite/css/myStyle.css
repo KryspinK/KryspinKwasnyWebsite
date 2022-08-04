@@ -194,8 +194,15 @@ li{
 
 li.displayBlock{
     display: block;
+    margin-bottom: 8px;
 
+}
 
+li.displayBlock:hover{
+    display: block;
+    color: white;
+    margin-bottom: 8px;
+    cursor: pointer;
 }
 
 .li-padding-right{
@@ -239,7 +246,14 @@ a.marginLeft{
 
 }
 
+a.displayBlock{
+    display: block;
+    text-align: left;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
 
+}
 
 
 p.center{
@@ -442,6 +456,15 @@ li.marginBot10px{
     left: 50%;
     border-style: solid;
     border-color: black;
+}
+
+#option{
+
+
+}
+
+#option:hover{
+    cursor: pointer;
 }
 
 
